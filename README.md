@@ -1,7 +1,7 @@
 
 ---
 
-# Fraud Detection in Online Transactions
+# Fraud Detection in Online Transactions (_in progress_)
 
 ## Project Overview
 
