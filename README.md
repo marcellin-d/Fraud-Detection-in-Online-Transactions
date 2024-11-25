@@ -1,3 +1,4 @@
+
 ---
 
 # Fraud Detection in Online Transactions
@@ -7,6 +8,29 @@
 The objective of this project is to build a machine learning model capable of predicting the probability that an online transaction is fraudulent (`isFraud`). The model utilizes transaction data, along with identity-related features, to classify each transaction as either fraudulent or non-fraudulent.
 
 This project leverages the dataset from the Kaggle competition **IEEE Fraud Detection**, which provides both transaction-level and identity-level data.
+
+---
+
+## Table of Contents
+
+1. [Project Structure](#project-structure)
+2. [Installation](#installation)
+3. [Project Workflow](#project-workflow)
+    - [Data Preprocessing](#1-data-preprocessing-01_data_preprocessingipynb)
+    - [Feature Engineering](#2-feature-engineering-02_feature_engineeringipynb)
+    - [Model Training](#3-model-training-03_model_trainingipynb)
+    - [Evaluation and Submission](#4-evaluation-and-submission-04_evaluation_and_submissionipynb)
+4. [Technologies Used](#technologies-used)
+5. [Model Details](#model-details)
+    - [Preprocessing Steps](#preprocessing-steps)
+    - [Models Used](#models-used)
+    - [Evaluation Metrics](#evaluation-metrics)
+    - [Best Model Results](#best-model-results)
+6. [Submission](#submission)
+7. [Contribution Guidelines](#contribution-guidelines)
+8. [Authors](#authors)
+
+---
 
 ## Project Structure
 
@@ -35,6 +59,8 @@ fraud-detection/
 └── submission.csv                      # Final submission file with predictions
 ```
 
+---
+
 ## Installation
 
 Follow these steps to set up and run the project:
@@ -56,6 +82,8 @@ Follow these steps to set up and run the project:
    ```bash
    pip install -r requirements.txt
    ```
+
+---
 
 ## Project Workflow
 
@@ -83,6 +111,8 @@ Follow these steps to set up and run the project:
 - **Prediction Generation**: The trained model is used to predict the probabilities of fraud on the test dataset, which are saved in the submission file.
 - **Submission**: The predictions are saved in the required submission format (`TransactionID` and `isFraud` probability).
 
+---
+
 ## Technologies Used
 
 - **Python 3.8+**
@@ -93,7 +123,8 @@ Follow these steps to set up and run the project:
   - `lightgbm`: Another boosting algorithm for faster training.
   - `matplotlib`, `seaborn`: Visualization and exploratory data analysis.
   - `numpy`: Numerical computations.
-  - `tensorflow`/`keras` (optional for deep learning models).
+
+---
 
 ## Model Details
 
@@ -126,6 +157,8 @@ Follow these steps to set up and run the project:
 
 The final model showed strong performance in predicting fraudulent transactions, with high AUC-ROC and F1-scores on the validation set.
 
+---
+
 ## Submission
 
 The final predictions are saved in the `submission.csv` file. The format required for submission is:
@@ -137,6 +170,8 @@ TransactionID,isFraud
 ...
 ```
 
+---
+
 ## Contribution Guidelines
 
 We welcome contributions to improve this project. To contribute, please follow these steps:
@@ -146,10 +181,12 @@ We welcome contributions to improve this project. To contribute, please follow t
 3. Make your changes and ensure all tests pass.
 4. Submit a pull request describing your changes.
 
+---
+
 ## Authors
 
 - **Name**: Marcellin
-- **GitHub**: [your-github-username](https://github.com/your-github-username)
-- **Email**: your.email@example.com
+- **LinkedIn** : 
+- **Email**: 
 
----
+--- 
