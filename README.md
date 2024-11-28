@@ -4,6 +4,10 @@
 
 This project focuses on detecting fraudulent credit card transactions using machine learning techniques. The goal is to predict whether a given transaction is legitimate or fraudulent based on various features of the transaction. The dataset used in this project includes anonymized features for privacy, such as the transaction amount, time, and other factors that may contribute to identifying fraudulent activities.
 
+
+---
+![Credit Card Fraud Detection]([credit-card-fraud-detection-1-638.jpg](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFgMl9kLQfgJko1Ezy-c9cUshkAolWfnSdEnwbL5pjMZa_rEqlKT4LcVCPkCzx9JVUr_NOv5B7Y3fb0PwJiBUyluPIebNSARD1NCRQTtT4j10Gz2BhvF7s9_aZl11SputB1-ni1YrsQ28/s640/credit-card-fraud-detection-1-638.jpg))
+
 ---
 
 ## **Table of Contents**
@@ -142,23 +146,25 @@ After running the model, review the detailed evaluation in the `evaluation_repor
 
 ### Example Output:
 
-```
-Accuracy: 0.9434
+**Accuracy**: 0.9434
 
-Classification Report:
-              precision    recall  f1-score   support
+#### Classification Report
 
-           0       0.92      0.97      0.94     56463
-           1       0.97      0.91      0.94     56839
+| Class | Precision | Recall | F1-Score | Support |
+|-------|-----------|--------|----------|---------|
+| 0     | 0.92      | 0.97   | 0.94     | 56463   |
+| 1     | 0.97      | 0.91   | 0.94     | 56839   |
+| **Accuracy**     |           |        | **0.94** | 113302  |
+| **Macro avg**    | 0.95      | 0.94   | 0.94     | 113302  |
+| **Weighted avg** | 0.95      | 0.94   | 0.94     | 113302  |
 
-    accuracy                           0.94    113302
-   macro avg       0.95      0.94      0.94    113302
-weighted avg       0.95      0.94      0.94    113302
+#### Confusion Matrix
 
-Confusion Matrix:
-[[55008  1455]
- [ 4955 51884]]
-```
+|           | Predicted 0 | Predicted 1 |
+|-----------|-------------|-------------|
+| **Actual 0** | 55008       | 1455        |
+| **Actual 1** | 4955        | 51884       |
+
 
 ---
 
