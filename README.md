@@ -6,7 +6,7 @@ This project focuses on detecting fraudulent credit card transactions using mach
 
 
 ---
-![Credit Card Fraud Detection]([credit-card-fraud-detection-1-638.jpg](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFgMl9kLQfgJko1Ezy-c9cUshkAolWfnSdEnwbL5pjMZa_rEqlKT4LcVCPkCzx9JVUr_NOv5B7Y3fb0PwJiBUyluPIebNSARD1NCRQTtT4j10Gz2BhvF7s9_aZl11SputB1-ni1YrsQ28/s640/credit-card-fraud-detection-1-638.jpg))
+![Credit Card Fraud Detection](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFgMl9kLQfgJko1Ezy-c9cUshkAolWfnSdEnwbL5pjMZa_rEqlKT4LcVCPkCzx9JVUr_NOv5B7Y3fb0PwJiBUyluPIebNSARD1NCRQTtT4j10Gz2BhvF7s9_aZl11SputB1-ni1YrsQ28/s640/credit-card-fraud-detection-1-638.jpg)
 
 ---
 
